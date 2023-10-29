@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HouseVOP</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__main">
+            <img class="header__logo" src="img/first-screen__logo.png" alt="">
+            <nav class="header__nav">
+                <ul class="header__item">
+                    <li class="header__list"><a class="header__btn" href="#block1">О комплексе</a></li>
+                    <li class="header__list"><a class="header__btn" href="#block2">Район</a></li>
+                    <li class="header__list"><a class="header__btn" href="#block3">Каталог квартир</a></li>
+                    <li class="header__list"><a class="header__btn" href="#block5">Вопросы</a></li>
+                    <li class="header__list"><a class="header__btn" href="#block4">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="burger wow animate__animated animate__fadeInRight">
+                <span></span>
+            </div>
+        </div>
+        <div class="header__wrapper">
+            <h1 class="header__title">Жилой комплекс<br> в историческом центре</h1>
+        </div>
+        <div class="mouse__imgs">
+            <a href="#block4"><img class="mouse__img" src="img/mouse.png" alt=""></a>
+        </div>
+        <div class="block__end__header">
+            <div class="adres__block">
+                <img class="header__adres" src="img/adres.png" alt="">
+                <p class="adres__wrapper">Наб. реки Фонтанки 10-15</p>
+            </div>
+            <div class="phone__header">
+                <img class="header__phone" src="img/phone-call.png" alt="">
+                <p class="header__phone">8 (812) 123-45-67</p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="main__logos">
+            <div class="main__logo">
+                <div class="logo__main">
+                    <img class="logo" src="img/01.png" alt="">
+                    <p class="main__text">Рядом исторические<br>парки и скверы</p>
+                </div>
+                <div class="logo__main">
+                    <img class="logo" src="img/02.png" alt="">
+                    <p class="main__text">Полностью<br>обустроенный</p>
+                </div>
+                <div class="logo__main">
+                    <img class="logo" src="img/03.png" alt="">
+                    <p class="main__text">10 фонтанов<br>на территории</p>
+                </div>
+                <div class="logo__main">
+                    <img class="logo" src="img/bicycle.png" alt="">
+                    <p class="main__text">6 км<br> велодорожек</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="new__home__title">
+            <div class="block__text__home">
+                <div class="texts__home">
+                    <h1 class="home__new__text">Наши квартиры</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="home" id="block3">
+            <div class="main__home">
+                <div class="img__home">
+                    <img class="homes" src="img/home--1.png" alt="">
+                </div>
+                <div class="img__home">
+                    <img class="homes" src="img/home--2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="home">
+            <div class="main__home">
+                <div class="img__home">
+                    <img class="homes" src="img/home--3.png" alt="">
+                </div>
+                <div class="img__home">
+                    <img class="homes" src="img/home--4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="input" id="block5">
+            <div class="main__input">
+                <div class="text__input">
+                    <h1 class="input__wrapper">Хотите посмотреть?</h1>
+                    <p class="input__info">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br>на латинице с начала XVI века. В то время некий безымянный <br>печатник создал большую коллекцию размеров и форм шрифтов, <br>используя Lorem Ipsum для распечатки образцов. </p>
+                </div>
+                <div class="input__block">
+                    <input type="text" class="name-input" placeholder="Ваше имя" autocomplete="off">
+                    <input type="text" class="phone-input" placeholder="Ваш телефон" autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="vidio" id="block1">
+        <div class="conteiner">
+            <a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" class="vidio__link">
+                <img class="vidio__icon" src="img/play-button.png" alt="">
+                <img class="vidio__img" src="img/vidio-bg.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="cart__title">
+            <h1 class="cart__text">Район на карте</h1>
+        </div>
+    </section>
+    <section class="section-map none1" id="block2">
+        <div class="container">
+            <div class="section-map__map">
+                <div class="map" id="map"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer" id="block4">
+            <div class="main__footer">
+                <div class="text__footer">
+                    <img class="footer__logos" src="img/first-screen__logo.png" alt="">
+                </div>
+                <div class="footer__block">
+                    <p class="footer__wrepper">О комплексе</p>
+                    <p class="footer__wrepper">Район</p>
+                    <p class="footer__wrepper">Каталог квартир</p>
+                    <p class="footer__wrepper">Ипотека</p>
+                    <p class="footer__wrepper">Контакты</p>
+                </div>
+                <div class="footer__block">
+                    <p class="footer__wrepper">О комплексе</p>
+                    <p class="footer__wrepper">Район</p>
+                    <p class="footer__wrepper">Каталог квартир</p>
+                    <p class="footer__wrepper">Ипотека</p>
+                    <p class="footer__wrepper">Контакты</p>
+                </div>
+                <div class="footer__block">
+                    <p class="footer__wrepper">Адрес: Наб. реки Фонтанки 10-15</p>
+                    <p class="footer__wrepper">Телефон: 8 (812) 123-45-67</p>
+                    <p class="footer__wrepper">Отдел продаж: 10:00 - 20:00</p>
+                    <p class="footer__wrepper">E-mail: <span>vip@housevip.ru</span></p>
+                    <div class="footer__logo">
+                        <img src="img/yt.png" alt="">
+                        <img src="img/vk.png" alt="">
+                        <img src="img/fc.png" alt="">
+                        <img src="img/inst.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="https://api-maps.yandex.ru/v3/?apikey=cdc60b9f-96bb-4a79-8fb9-6643d7027ac8&lang=ru_RU"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
